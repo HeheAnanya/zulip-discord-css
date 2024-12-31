@@ -10,6 +10,7 @@
     --background-tertiary: #202225;
     --channeltextarea-background: #40444b;
     --scrollbar-auto-thumb: #202225;
+    --text-color: #FFFFFF;
 }
 
 .app,
@@ -77,6 +78,7 @@ body > .header {
 .message_content {
     font-family: Whitney, sans-serif !important;
     font-size: 16px !important;
+    color: var(--text-color) !important;
 }
 
 /* message author should be regular weight */
@@ -104,11 +106,13 @@ body > .header {
     line-height: 1.125rem !important;
     text-indent: 0 !important;
     white-space: pre-wrap !important;
+    color: var(--text-color) !important;
 }
 
 /* disables background color for code lines (???) */
 .rendered_markdown .codehilite code {
     background-color: unset !important;
+    color: var(--text-color) !important;
 }
 
 /* changes the appearance of every embed */
@@ -117,6 +121,7 @@ body > .header {
     padding: .75rem !important;
     background-color: var(--background-secondary) !important;
     border-left: 4px solid var(--background-tertiary) !important;
+    color: var(--text-color) !important;
 }
 
 /* add a gap between embed text and picture */
